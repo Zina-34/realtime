@@ -1,0 +1,139 @@
+@import "../../App.scss";
+
+// .containerr{
+//   width: 100%;
+//   overflow: hidden;
+// }
+  // .cart-5{
+  //   position: relative;
+  // }
+
+  a{
+    text-decoration:none;
+    display: inline-block;
+  }
+  
+  .header-top-strip{
+    background-color: $color2;
+    // border-bottom: 1px solid black;
+  }
+  .form-control:focus{
+      box-shadow: none;
+      border-color:inherit;
+  }
+  .cart{
+    height: 30px;
+    width: 30px;
+  }
+  .logout{
+    height: 30px;
+    width: 30px;
+  }
+
+  
+  .header-upper{
+    background-color: $color2;
+    width: 100%;
+    border-bottom:1px solid rgb(250, 247, 247);
+    height: 55px;
+    overflow: hidden;
+
+    .title{
+      color: $color1;
+      font-family: "MonteCarlo" , cursive;
+      text-decoration: none;
+      padding: 0px 10px;
+    }
+    .input-group-text{
+      background-color: $color3;
+      height: 50px;
+    }  
+    .header-upper-links img{
+      width:35px;
+      height: 35px;      
+    }
+    .cart{
+      color:$color1;
+      text-decoration: none;     
+
+    }
+    .logout{
+      color:$color1;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .two-items{
+      display: flex;
+      justify-content: flex-end
+    }
+    
+  }
+
+  .cartlog{
+    position: relative;
+    left: 325px;
+    display: flex;
+    height: 50px;
+    width: 218px;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+ 
+  }
+
+  .header-bottom{
+    background-color: $color2;
+    // border-color: 2px solid black;
+    // border-top: 1px solid rgb(177, 175, 175);    
+     border-top: 1px solid #c3cbce;
+
+     .contain{
+      height: 35px;
+     }
+}
+
+  .navhome{
+    // border: 2px solid black;s
+    margin-left: 180px;
+    margin-top: 10px;
+
+  }
+
+  .header-bottom .menu-links a{
+    color:$color1;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3;
+    text-transform: uppercase;      
+  .dropdowns{
+    background-color: white;
+    
+  .dropdowns button{
+    color:$color2;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3;
+    text-transform: uppercase;      
+   
+
+    .dropdown-menu{
+      width: 100%;
+      margin-left: 20px;
+
+      transform: translate3d(0px 57px, 0px) !important;
+      .dropdown-item{
+        padding: 20px;
+        margin-bottom: 3px;
+        border-bottom: 1px solid $color2;
+          &:hover{
+            color: $color1 !important;
+          }
+      }
+    }
+  }
+  }  
+  
+
+  }

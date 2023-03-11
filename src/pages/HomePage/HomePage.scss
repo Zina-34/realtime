@@ -1,0 +1,119 @@
+@import "../../App.scss";
+
+
+.main-banner-content{
+    top: 15%;
+    left: 5%;
+}
+.main-banner-content h4{
+        font-size:16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0 0 12px;
+        color:$color1;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+}
+.button{
+    background-color: $color1;
+    color: white;
+    font-size: 14px;
+    padding: 13px 33px;
+    border-radius: 15px;
+    &:hover{
+        background-color: orange;
+        color:$color1;
+    }
+}
+
+.coll{
+    height: 455px;
+    width: 650px;
+    position: relative;
+    top:10px;
+}
+.col{
+        
+        height: 455px;
+        width: 650px;
+        position: relative;
+        top:20px;
+        margin: 3px;
+    }
+
+
+.main-banner-content h5{
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    text-transform: none;
+}
+.main-banner-content p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4;
+    color: $color2;
+}
+.small-banner-content{
+    top: 25%;
+    left: 10%;
+}
+
+.small-banner-content h4{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 12px;
+    color:$color1;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.small-banner-content h5{
+font-size: 22px;
+line-height: 34px;
+letter-spacing: -2px;
+font-weight: 500;
+text-transform: none;
+}
+.small-banner-content p{
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0.4;
+color: $color2;
+}
+.small-banner{
+    width: 49%;
+}
+.home-wrapper-2{
+    position: relative;
+    top: 3px;
+    background-color: #f5f5f7;
+    width: 100%;
+}
+.section-heading{
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+// .cont{
+//     padding: 20px;
+// }
+
+// .cole{
+//     height: 90px;
+//     width: 290px;
+//     position: absolute;
+//     top: 2288px;
+//     left: 1002px;
+// }
+
+// .arrowpng{
+//     position: relative;
+//     height: 43px;
+//     width: 51px;
+//     top: 24px;
+//     left: -24px;
+// }
